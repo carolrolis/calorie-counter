@@ -1,0 +1,93 @@
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  list-style: none;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+.michroma-regular {
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin-top:2.5rem;
+  font-size:1.3rem;
+  font-family:sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: Michroma;
+  font-size: 2rem;
+}
+
+#container {
+  width:80%;
+  margin:5rem auto 0;
+}
+
+#budget {
+  height:20px;
+  border-radius:5px;
+}
+
+#controls {
+  margin: 1rem 0 4rem;
+}
+
+#entry-dropdown {
+  height:1.5rem;
+}
+
+#add-entry /*button*/ {
+  height:1.6rem;
+  width:1.6rem;
+  border-radius:50%;
+}
+
+.fieldset {
+  min-height:2.4rem;
+  margin-bottom:1rem;
+  border-radius: 5px;
+}
+
+.fieldset legend {
+  margin:0.5rem;
+  padding:0 0.5rem 0;
+}
+
+.input-container {
+  width:80%;
+  margin:0 auto 1rem;
+  display:flex;
+  flex-direction: column;
+}
+
+.input-container-input {
+  margin-top:10px;
+  display:flex;
+  flex-direction: column;
+}
+
+.input-container input {
+  border-radius: 3px;
+}
+
+#final-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top:2.5rem;
+}
+
+#submit, #clear {
+  width:12rem;
+  height:1.5rem;
+  margin:0 auto 0.5rem;
+  border-radius:5px;
+  background-color: rgb(255, 255, 255);
+}
